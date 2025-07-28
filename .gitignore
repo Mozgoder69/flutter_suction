@@ -1,0 +1,56 @@
+# ---- Flutter & Dart ----
+# Кеши и артефакты
+.dart_tool/
+.packages
+.buildlog/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+
+# Основной build каталог
+build/
+
+# Файлы, генерируемые Flutter
+**/Flutter/ephemeral/
+**/GeneratedPluginRegistrant.*
+**/Packaged.xcconfig
+
+# Аналитика/кеши IDE
+.idea/
+*.iml
+.vscode/
+.fleet/
+
+# ---- Android ----
+android/.gradle/
+android/local.properties
+android/key.properties
+*.keystore
+*.jks
+**/captures/
+
+# ---- iOS / macOS ----
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+ios/Flutter/Generated.xcconfig
+
+macos/Pods/
+macos/Flutter/Flutter-Debug.xcconfig
+macos/Flutter/Flutter-Release.xcconfig
+macos/Flutter/Flutter-Profile.xcconfig
+
+# ---- Linux / Windows ----
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+
+# ---- Web ----
+
+# ---- Misc ----
+*.lock.hive
+*.log
+*.tmp
+
+# !pubspec.lock
